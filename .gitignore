@@ -1,4 +1,3 @@
 venv/
 .env
 __pycache__/
-lyceum/lyceum/__pycache__/settings.cpython-311.pyc
