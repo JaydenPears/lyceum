@@ -2,6 +2,31 @@
 ### Student of the Faculty of Computer Science and Computer Engineering.
 #
 ## How to start Django Project:
-1. You need to install Django (pip install django, latest version)
-2. With django you can start the project with comand django-admin startproject {name_of_project}
-3. Now you have simple Django app, have a nice day! =)
+1. ### Create venv
+   ```
+   python -m venv venv
+   ```
+2. ### Activate venv
+   ```
+   venv/Scripts/activate
+   ```
+3. ### Install requirements
+   ```
+   pip install -r requirewents.txt
+   ```
+4. ### Make migrations
+   ```
+   python manage.py makemigrations
+   ```
+5. ### Migrate
+   ```
+   python manage.py migrate
+   ```
+6. ### Create superuser
+   ```
+   python manage.py createsuperuser
+   ```
+7. ### Run server and enjoy
+   ```
+   python manage.py runserver
+   ```
