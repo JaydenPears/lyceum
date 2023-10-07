@@ -11,3 +11,5 @@ ignore =
     E501,
     # Line break occurred before a binary operator
     W503,
+    # Imported but unused
+    F401,
