@@ -12,7 +12,7 @@
    ```
 3. ### Install requirements
    ```
-   pip install -r requirewents.txt
+   pip install -r requirements/dev.txt
    ```
 4. ### Make migrations
    ```
